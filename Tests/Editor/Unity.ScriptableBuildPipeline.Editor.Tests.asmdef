@@ -1,0 +1,22 @@
+{
+    "name": "Unity.ScriptableBuildPipeline.Editor.Tests",
+    "references": [
+        "Unity.ScriptableBuildPipeline.Editor",
+        "Unity.ScriptableBuildPipeline",
+        "Unity.PerformanceTesting",
+        "Unity.PerformanceTesting.Editor",
+        "UnityEditor.UI",
+        "UnityEngine.UI"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+	"defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+}
