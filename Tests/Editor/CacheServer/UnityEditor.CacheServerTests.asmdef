@@ -1,7 +1,9 @@
 {
     "name": "UnityEditor.CacheServerTests",
     "references": [
-        "UnityEditor.CacheServer"
+        "UnityEditor.CacheServer",
+        "UnityEditor.UI",
+        "UnityEngine.UI"
     ],
     "includePlatforms": [
         "Editor"
